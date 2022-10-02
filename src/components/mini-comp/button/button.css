@@ -1,0 +1,21 @@
+.btn_shadow {
+  padding: 10px 25px;
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.btn_shadow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+
+.btn_shadow:hover {
+  background: #404fdb;
+  color: white;
+  transform: translateY(-3px);
+}
