@@ -4,7 +4,7 @@ import { SiFiverr, SiFreelancer, SiUpwork } from "react-icons/si";
 import { Typewriter } from "react-simple-typewriter";
 import Button from "../mini-comp/button/button";
 import cover_photo from "./../../others/Images/profile/cover.jpg";
-import profile_photo from "./../../others/Images/profile/profilepic.jpg";
+import profile_photo from "./../../others/Images/profile/profilepic2.png";
 import "./home.css";
 import Nav from "./nav/nav";
 
@@ -22,7 +22,6 @@ const Home = () => {
 
   return (
     <section className="home-section" id="home">
-      
       <div className={navFixed ? "nav_fixed nav_comp" : "nav_comp"}>
         <div className="container">
           <Nav />

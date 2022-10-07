@@ -36,19 +36,13 @@ const Nav = () => {
             <LinkComp name="about" target="about" />
           </li>
           <li>
-            <LinkComp name="features" target="features" />
+            <LinkComp name="services" target="services" />
           </li>
           <li>
             <LinkComp name="resume" target="resume" />
           </li>
           <li>
             <LinkComp name="portfolio" target="portfolio" />
-          </li>
-          <li>
-            <LinkComp name="pricing" target="pricing" />
-          </li>
-          <li>
-            <LinkComp name="blog" target="blog" />
           </li>
           <li>
             <LinkComp name="contact" target="contact" />

@@ -127,14 +127,10 @@
 
   .menu_item li a {
     display: block;
-    /* background-color: blue; */
     padding: 15px 18px;
     width: 95vw;
     text-align: center;
     font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    cursor: pointer;
   }
 
   .menu_item li a:hover {

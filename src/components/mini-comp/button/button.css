@@ -1,10 +1,10 @@
 .btn_shadow {
-  padding: 10px 25px;
+  padding: 14px 18px;
   text-align: center;
   border-radius: 6px;
   transition: 0.3s all ease;
   cursor: pointer;
-  color: #000;
+  color: #e30d2b;
   font-size: 20px;
   transition: 0.5s;
 }
@@ -15,7 +15,7 @@
 }
 
 .btn_shadow:hover {
-  background: #404fdb;
+  background: #e30d2b;
   color: white;
   transform: translateY(-3px);
 }

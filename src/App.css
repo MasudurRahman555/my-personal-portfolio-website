@@ -114,7 +114,32 @@ body {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
 }
-
+.button {
+  padding: 14px 18px;
+  text-align: center;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #e30d2b;
+  font-size: 13px;
+  font-weight: 600;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  transition: 0.5s;
+}
+.button:hover {
+  background: #e30d2b;
+  color: white;
+  transform: translateY(-3px);
+}
+.user_select_none {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
 .main {
   width: 100vw;
   max-width: 100%;

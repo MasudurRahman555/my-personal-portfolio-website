@@ -17,6 +17,7 @@
   margin-top: 25vh;
   transition: 0.1s;
 }
+
 .nav_fixed.nav_comp {
   position: fixed;
   z-index: 999;
@@ -27,13 +28,17 @@
   background-color: #ffffff;
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 5px #beb4b4;
 }
+
 .nav_fixed .navigation .menu_btn {
-  display: none;
+  opacity: 0;
+  pointer-events: none;
 }
+
 .nav_fixed .navigation .nav {
   opacity: 1;
   pointer-events: all;
 }
+
 .nav_fixed .navigation .nav .menu_item {
   background: transparent;
 }
@@ -139,29 +144,28 @@
   .nav_comp {
     margin-top: 0;
   }
-  /* .nav_fixed.nav_comp {
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    height: 60px;
-    margin-top: 0;
-    padding: 5px 0;
-    background-color: #ffffff;
-    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 5px #beb4b4;
-  } */
-  .nav_comp .container {
-    width: 100vw;
+
+  .nav_fixed.nav_comp {
+    background: transparent;
+    box-shadow: none;
   }
-  /* .nav_fixed .navigation .menu_btn {
-    display: block;
-  }
-  .nav_fixed .navigation .nav {
+
+  .nav_fixed .navigation .menu_btn {
     opacity: 1;
     pointer-events: all;
   }
-  .nav_fixed .navigation .nav .menu_item {
-    background: transparent;
-  } */
+
+  .nav_fixed .navigation .nav {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .nav_fixed .active_menu .nav {
+    background-color: #ffffff;
+    opacity: 1;
+    pointer-events: all;
+    border-radius: 5px;
+  }
 
   .home_profile {
     height: auto;
@@ -180,7 +184,7 @@
   .profile_details {
     padding: 20px 10px;
     margin-left: 0px;
-    margin-top: 25vh;
+    margin-top: 50vh;
     text-align: center;
   }
 
@@ -205,9 +209,11 @@
     flex-direction: column;
     margin-left: 0px;
   }
+
   .contact_btn {
     margin-bottom: 10px;
   }
+
   .contact_btn h4,
   .here_btn h4 {
     margin: 5px 0px;
@@ -223,7 +229,7 @@
   .profile_image {
     width: 280px;
     height: 420px;
-    top: 0%;
+    top: -10%;
     left: 0;
     right: 0;
     margin: auto;
