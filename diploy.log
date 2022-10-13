@@ -1,0 +1,140 @@
+11:06:35 AM: Build ready to start
+11:06:37 AM: build-image version: 9289b698a503f132b265bd089ab40ce1d6f9e65e (focal)
+11:06:37 AM: build-image tag: v4.12.0
+11:06:37 AM: buildbot version: c87074660cd9a4568c0ac759bc083987e94204b3
+11:06:37 AM: Fetching cached dependencies
+11:06:37 AM: Failed to fetch cache, continuing with build
+11:06:37 AM: Starting to prepare the repo for build
+11:06:37 AM: No cached dependencies found. Cloning fresh repo
+11:06:37 AM: git clone https://github.com/MasudurRahman555/my-personal-portfolio-website
+11:06:38 AM: Preparing Git Reference refs/heads/main
+11:06:39 AM: Parsing package.json dependencies
+11:06:39 AM: Starting build script
+11:06:39 AM: Installing dependencies
+11:06:39 AM: Python version set to 2.7
+11:06:40 AM: v16.17.1 is already installed.
+11:06:40 AM: Now using node v16.17.1 (npm v8.15.0)
+11:06:40 AM: Started restoring cached build plugins
+11:06:40 AM: Finished restoring cached build plugins
+11:06:40 AM: Attempting ruby version 2.7.2, read from environment
+11:06:41 AM: Using ruby version 2.7.2
+11:06:41 AM: Using PHP version 8.0
+11:06:41 AM: No npm workspaces detected
+11:06:41 AM: Started restoring cached node modules
+11:06:41 AM: Finished restoring cached node modules
+11:06:41 AM: Installing NPM modules using NPM version 8.15.0
+11:06:42 AM: npm WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+11:06:42 AM: npm WARN config location in the cache, and they are managed by
+11:06:42 AM: npm WARN config     [`cacache`](http://npm.im/cacache).
+11:06:42 AM: npm WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+11:06:42 AM: npm WARN config location in the cache, and they are managed by
+11:06:42 AM: npm WARN config     [`cacache`](http://npm.im/cacache).
+11:06:46 AM: npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+11:06:47 AM: npm WARN deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+11:06:52 AM: added 1456 packages, and audited 1457 packages in 11s
+11:06:52 AM: 210 packages are looking for funding
+11:06:52 AM:   run `npm fund` for details
+11:06:52 AM: 7 high severity vulnerabilities
+11:06:52 AM: To address issues that do not require attention, run:
+11:06:52 AM:   npm audit fix
+11:06:52 AM: To address all issues (including breaking changes), run:
+11:06:52 AM:   npm audit fix --force
+11:06:52 AM: Run `npm audit` for details.
+11:06:52 AM: NPM modules installed
+11:06:53 AM: npm WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+11:06:53 AM: npm WARN config location in the cache, and they are managed by
+11:06:53 AM: npm WARN config     [`cacache`](http://npm.im/cacache).
+11:06:53 AM: Started restoring cached go cache
+11:06:53 AM: Finished restoring cached go cache
+11:06:53 AM: Installing Go version 1.17 (requested 1.17)
+11:06:58 AM: unset GOOS;
+11:06:58 AM: unset GOARCH;
+11:06:58 AM: export GOROOT='/opt/buildhome/.gimme/versions/go1.17.linux.amd64';
+11:06:58 AM: export PATH="/opt/buildhome/.gimme/versions/go1.17.linux.amd64/bin:${PATH}";
+11:06:58 AM: go version >&2;
+11:06:58 AM: export GIMME_ENV="/opt/buildhome/.gimme/env/go1.17.linux.amd64.env"
+11:06:58 AM: go version go1.17 linux/amd64
+11:06:58 AM: Installing missing commands
+11:06:58 AM: Verify run directory
+11:06:59 AM: ​
+11:06:59 AM: ────────────────────────────────────────────────────────────────
+11:06:59 AM:   Netlify Build                                                 
+11:06:59 AM: ────────────────────────────────────────────────────────────────
+11:06:59 AM: ​
+11:06:59 AM: ❯ Version
+11:06:59 AM:   @netlify/build 27.20.1
+11:06:59 AM: ​
+11:06:59 AM: ❯ Flags
+11:06:59 AM:   baseRelDir: true
+11:06:59 AM:   buildId: 63406aabc29218391ea5fcec
+11:06:59 AM:   deployId: 63406aabc29218391ea5fcee
+11:06:59 AM: ​
+11:06:59 AM: ❯ Current directory
+11:06:59 AM:   /opt/build/repo
+11:06:59 AM: ​
+11:06:59 AM: ❯ Config file
+11:06:59 AM:   No config file was defined: using default values.
+11:06:59 AM: ​
+11:06:59 AM: ❯ Context
+11:06:59 AM:   production
+11:06:59 AM: ​
+11:06:59 AM: ────────────────────────────────────────────────────────────────
+11:06:59 AM:   1. Build command from Netlify app                             
+11:06:59 AM: ────────────────────────────────────────────────────────────────
+11:06:59 AM: ​
+11:06:59 AM: $ npm run build
+11:06:59 AM: npm WARN config tmp This setting is no longer used.  npm stores temporary files in a special
+11:06:59 AM: npm WARN config location in the cache, and they are managed by
+11:06:59 AM: npm WARN config     [`cacache`](http://npm.im/cacache).
+11:06:59 AM: > my-portfolio@0.1.0 build
+11:06:59 AM: > react-scripts build
+11:07:00 AM: Creating an optimized production build...
+11:07:11 AM: 
+11:07:11 AM: Treating warnings as errors because process.env.CI = true.
+11:07:11 AM: Most CI servers set it automatically.
+11:07:11 AM: 
+11:07:11 AM: Failed to compile.
+11:07:11 AM: 
+11:07:11 AM: [eslint]
+11:07:11 AM: src/components/practise.jsx
+11:07:11 AM:   Line 7:13:  'toggle' is assigned a value but never used  no-unused-vars
+11:07:11 AM: ​
+11:07:11 AM: ────────────────────────────────────────────────────────────────
+11:07:11 AM:   "build.command" failed                                        
+11:07:11 AM: ────────────────────────────────────────────────────────────────
+11:07:11 AM: ​
+11:07:11 AM:   Error message
+11:07:11 AM:   Command failed with exit code 1: npm run build (https://ntl.fyi/exit-code-1)
+11:07:11 AM: ​
+11:07:11 AM:   Error location
+11:07:11 AM:   In Build command from Netlify app:
+11:07:11 AM:   npm run build
+11:07:11 AM: ​
+11:07:11 AM:   Resolved config
+11:07:11 AM:   build:
+11:07:11 AM:     command: npm run build
+11:07:11 AM:     commandOrigin: ui
+11:07:11 AM:     publish: /opt/build/repo/build
+11:07:11 AM:     publishOrigin: ui
+11:07:12 AM: Caching artifacts
+11:07:12 AM: Started saving node modules
+11:07:12 AM: Finished saving node modules
+11:07:12 AM: Started saving build plugins
+11:07:12 AM: Finished saving build plugins
+11:07:12 AM: Started saving pip cache
+11:07:12 AM: Finished saving pip cache
+11:07:12 AM: Started saving emacs cask dependencies
+11:07:12 AM: Finished saving emacs cask dependencies
+11:07:12 AM: Started saving maven dependencies
+11:07:12 AM: Finished saving maven dependencies
+11:07:12 AM: Started saving boot dependencies
+11:07:12 AM: Finished saving boot dependencies
+11:07:12 AM: Started saving rust rustup cache
+11:07:12 AM: Finished saving rust rustup cache
+11:07:12 AM: Started saving go dependencies
+11:07:12 AM: Finished saving go dependencies
+11:07:12 AM: Build failed due to a user error: Build script returned non-zero exit code: 2
+11:07:12 AM: Creating deploy upload records
+11:07:12 AM: Failing build: Failed to build site
+11:07:13 AM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+11:07:13 AM: Finished processing build request in 35.829287645s
